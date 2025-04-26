@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            hw
+        </title>
+        <body>
+            <script> 
+                var choice = prompt("welcome to calculator. \n enter choice \n1.rectangle. \n2.circle. \n3.triangle \n4 parallelogram")
+
+                if (choice == '1') {
+                    var a = prompt ("enter length")
+                    var b = prompt ("enter breadth")
+                    var result = Number(a) * Number(b)
+                    alert('the area is '+ result)
+                }
+
+                if (choice == '2') {
+                    var c = prompt ("enter radius")
+                    var result = 3.14 * Number(c) * Number(c)
+                    alert('the area is '+ result)
+                }
+
+                if (choice == '3') {
+                    var d = prompt ("enter height")
+                    var e = prompt ("enter base")
+                    var result = Number(d) * Number(e) /2
+                    alert('the area is '+ result)
+                }
+
+                if (choice == '4') {
+                    var f = prompt ("enter height")
+                    var g = prompt ("enter the corresponding base")
+                    var result = Number(f) * Number(g)
+                    alert('the area is '+ result)
+                }
+            </script>
+        </body>
+    </head>
+</html>
